@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="dark_divider">#333333</drawable>
+    <drawable name="light_divider">#cccccc</drawable>
+    <drawable name="red_divider">#ff0000</drawable>
+</resources>
