@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         mContext = this;
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
+
 //        collapseTool = (CollapsingToolbarLayout) findViewById(R.id.collapseTool);
 //        collapseTool.setTitle("TestAndroid");
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler);
