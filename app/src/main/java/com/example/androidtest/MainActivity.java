@@ -110,9 +110,9 @@ public class MainActivity extends AppCompatActivity {
         public static final int GRID_LAYOUT_MANAGER = 0x02;
     }
 
-    class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+    public static class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
-        public class MyViewHolder extends RecyclerView.ViewHolder {
+        public static class MyViewHolder extends RecyclerView.ViewHolder {
             public TextView title;
 
             public MyViewHolder(View itemView) {
